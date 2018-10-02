@@ -1,0 +1,42 @@
+aplicacion & para poder usar la consola y la app a la vez
+
+ctrol Z se queda suspendida la tarea, enviar al segundo plano
+
+ctrl C se cancela la tarea y se cierra
+
+fg ver lo que esta corriendo en la consola actual
+
+pidof <nombre>  = saber la PID de una aplicacion en el adminsitrador de tareas
+
+px -aux
+ps
+
+lsof para saber todos los archivos que estan abiertos en mi SO
+
+lsof -i :8080 	saber que app esta utiizando el puerto 8080
+
+sudo !! 	lanzar el comando anterior 
+
+sudo service --status-all 		me dice que apps se inician al arrancar linux
+
+
+
+sudo service docker stop		parar docker
+sudo service <nombre app> force-reload		restart pero mas bruto
+
+man <nombre app> es el manual de una aplicacion
+
+sudo systemctl start docker
+sudo systemctl stop docker
+
+sudo systemd-analyze te dice el tiempo que tardo en arrnacar partes de mi SO
+
+sudo systemd-analyze blame 		un listado con lo que le ha costaso arrancar
+
+sudo systemd-analyze chain?	???????
+
+wc <nombre del fichero> 			saber las lineas de un fichero
+
+find "nombre" fichero.sql | wc -l	buscar nombre en la cedena de un texto
+
+

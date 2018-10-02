@@ -1,0 +1,7 @@
+bootstrap se divide en 12
+esta pensado para los dispositivos moviles
+
+tamaños: http://getbootstrap.com/docs/4.1/layout/grid/
+
+offseting es el desplazamiento. Para que no empiece directamente en la primera casilla
+.col-md-3 offset-md-3

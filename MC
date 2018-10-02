@@ -1,0 +1,6 @@
+cogemos la direccion del war con cd
+despues escribimos mc
+llegamos al xml o al archivo que queramos editar
+en el F3, podemos ver su contenido
+con F4 podemos editarlo sin necesidad de descomprimirlo
+lo guardamos y ya esta listo
