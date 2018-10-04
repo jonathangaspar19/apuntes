@@ -1,0 +1,4 @@
+iniciar localhost: sudo systectl status odoo
+sudo -u postgres psql postgres
+	\password postgres	(para poner la contraseña)
+	
