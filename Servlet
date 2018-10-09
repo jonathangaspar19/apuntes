@@ -1,0 +1,31 @@
+Servlet 
+
+mvn jetty:run 		si da error, hay que cambiar de 197 a 192 u otra version que tengamos
+
+<%=		&>  codigo para meter Java
+el = es como si estuvieramos escribiendo por pantalla, como si le estuvieramos pasando al HTML el resultado de JAVA
+
+
+USERSERVICE
+assembler: transforma y converte datos.  HttpServletRequest lo transforma en algo que se puede utilizar
+
+repository es el insertuser. Quien va a guardar o recuperar en base de datos. El que actual con la BD
+
+
+
+USER REPOSITORY
+
+
+	private static final String jdbcUrl = "jdbc:h2:file:./src/main/resources/test;INIT=RUNSCRIPT FROM 'classpath:scripts/create.sql'";
+
+src/main/resources/test 		donde va a estar el repositorio
+INIT=RUNSCRIPT FROM 'classpath:scripts/create.sql'";		cada vez que se conecte a la base de datos, se ejecutara el script que este en 'classpath:scripts/create.sql
+
+Finaly, Se ejecuta si o si, aunque tengas fallos
+
+__________________________________________________________________________________________________________
+
+Jdbc
+
+
+

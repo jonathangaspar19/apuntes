@@ -1,0 +1,7 @@
+ cat /var/log/postgresql/postgresql-10-main.log 		//si no funciona, tabular 
+less /var/log/postgresql/postgresql-10-main.log 		//ultimas 10 lineas
+more /var/log/postgresql/postgresql-10-main.log 	//primeras 10 lineas
+tail -f /var/log/postgresql/postgresql-10-main.log		//se va actualizando en el momento
+
+
+sudo servide postgresql		//te dice las opciones que tienes para arrancar el sistema

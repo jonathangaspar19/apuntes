@@ -1,0 +1,2 @@
+mkdir -p {main, test} /{java,resources}
+
